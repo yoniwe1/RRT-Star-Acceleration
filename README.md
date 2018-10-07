@@ -5,5 +5,5 @@ The program starts from the following path :  Accelerated RRT star/PythonTests/r
 
 A video clip presenting the project in action: rrt py extract obstacles.mp4
 
-python script located at path: Accelerated RRT star/PythonTests/extractRandom.py, locates all points inside the bounded rectangle, and extracts them from the sample range. It does so by identifying all the inner points of the rectangle, divided into two triangles by the main diagonal, and using the meshgrid method of numpy library to seperate integer points outside the rectangle from those inside it. Therefore, maximum precision is acheived, without having to settle for speed of calculation.
+A python script located at path: Accelerated RRT star/PythonTests/extractRandom.py, locates all points inside the bounded rectangle, and extracts them from the sample range. It does so by identifying all the inner points of the rectangle, divided into two triangles by the main diagonal, and using the meshgrid method of numpy library to seperate integer points outside the rectangle from those inside it. Therefore, maximum precision is acheived, without having to settle for speed of calculation.
 Another calculation is made for the points on the main diagonal that are not included in the insidetriangle() function, and is made in the diagonal() function.
